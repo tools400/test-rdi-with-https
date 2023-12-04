@@ -59,6 +59,6 @@ This project is used as a playground for testing https connections between GitHu
 
 ### Test Results SSH
 
-| Connection | Clone | Push  | Pull  | Comment                                                                           |
-| :---       | :---: | :---: | :---: | :---                                                                              |
-| https      |   X   |   X   |   X   | Connection was established with a personal access with repo + project permissions |
+| Connection | Clone | Push  | Pull  | Comment                                                                                     |
+| :---       | :---: | :---: | :---: | :---                                                                                        |
+| https      |   X   |   X   |   X   | Connection was established with a personal access (classic) with repo + project permissions |
