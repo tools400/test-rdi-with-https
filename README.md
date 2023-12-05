@@ -24,9 +24,6 @@ This project is used as a playground for testing https connections between GitHu
     smudge = git-lfs smudge -- %f
     process = git-lfs filter-process
     required = true
-  [http]
-    sslBackend = openssl
-    sslCAInfo = C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
   [core]
     autocrlf = true
     symlinks = false
@@ -62,3 +59,7 @@ This project is used as a playground for testing https connections between GitHu
 | Connection | Clone | Push  | Pull  | Comment                                                                                     |
 | :---       | :---: | :---: | :---: | :---                                                                                        |
 | https      |   X   |   X   |   X   | Connection was established with a personal access (classic) with repo + project permissions |
+
+## Links
+
+* [Git Configuration Variables](https://git-scm.com/docs/git-config#_variables)
